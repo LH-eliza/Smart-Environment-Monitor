@@ -12,23 +12,29 @@ Basic environmental monitoring system to test with sensor interfacing, real-time
 - 10kΩ potentiometer (for LCD contrast)
 
 
-[DHT22] -------- [Arduino Uno]
- VCC    -------- 5V
- DATA   -------- D2
- GND    -------- GND
+### DHT22 Temperature & Humidity Sensor
+| DHT22 Pin | Arduino Pin |
+|-----------|-------------|
+| VCC       | 5V         |
+| DATA      | D2         |
+| GND       | GND        |
 
-[LCD]   -------- [Arduino Uno]
- RS     -------- D12
- E      -------- D11
- D4     -------- D5
- D5     -------- D4
- D6     -------- D3
- D7     -------- D2
- VCC    -------- 5V
- GND    -------- GND
+### LCD Display
+| LCD Pin | Arduino Pin |
+|---------|-------------|
+| RS      | D12        |
+| E       | D11        |
+| D4      | D5         |
+| D5      | D4         |
+| D6      | D3         |
+| D7      | D2         |
+| VCC     | 5V         |
+| GND     | GND        |
 
-[RGB LED] ------- [Arduino Uno]
- R      -------- D9  (via 220Ω resistor)
- G      -------- D10 (via 220Ω resistor)
- B      -------- D11 (via 220Ω resistor)
- GND    -------- GND
+### RGB LED
+| LED Pin | Arduino Pin        |
+|---------|-------------------|
+| R       | D9 (via 220Ω)     |
+| G       | D10 (via 220Ω)    |
+| B       | D11 (via 220Ω)    |
+| GND     | GND               |
