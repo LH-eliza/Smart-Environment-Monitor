@@ -1,8 +1,8 @@
-##Smart Environment Monitor 
+Smart Environment Monitor 
 
 Basic environmental mointoring system to test with sensor interfacing, real-time processing, and digital communication, 
 
-#Main Components 
+Main Components 
 - Arduino Uno 
 - DHT11/DHT22 temperature and humidity sensor
 - 16x2 LCD display
