@@ -1,6 +1,6 @@
 ## Smart Environment Monitor 
 
-Basic environmental monitoring system to test with sensor interfacing, real-time processing, and digital communication, 
+Basic environmental monitoring system to test with sensor interfacing, real-time processing, and digital communication. Measures temperature and humidity, displays readings on an LCD screen, and provides visual feedback through an RGB LED indicator.
 
 ### Main Components 
 - Arduino Uno 
@@ -10,6 +10,15 @@ Basic environmental monitoring system to test with sensor interfacing, real-time
 - Breadboard and jumper wires
 - 220Ω resistors (3x for RGB LED)
 - 10kΩ potentiometer (for LCD contrast)
+
+
+### Software Requirements
+
+Arduino IDE or Visual Studio Code with PlatformIO
+Required Libraries:
+
+DHT sensor library
+LiquidCrystal library
 
 
 ### DHT22 Temperature & Humidity Sensor
