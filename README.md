@@ -1,6 +1,6 @@
 ## Smart Environment Monitor 
 
-Basic environmental mointoring system to test with sensor interfacing, real-time processing, and digital communication, 
+Basic environmental monitoring system to test with sensor interfacing, real-time processing, and digital communication, 
 
 ### Main Components 
 - Arduino Uno 
